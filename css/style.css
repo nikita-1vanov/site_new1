@@ -1,0 +1,199 @@
+html {
+	height: 100%;
+}
+body {
+	display:flex;
+	flex-direction: column;
+	background-color: #efefef;
+	max-width: 1920px;
+	margin: auto;
+	color: #120e27;
+	height: 100%;
+}
+
+@font-face {
+	font-family: "Quite Chocolatey";
+	src:url(../fonts/QuiteChocolatey.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat Regular";
+	src:url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat Bold";
+	src:url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: "PTSerif Regular";
+	src:url(../fonts/PTSerif-Regular.ttf);
+}
+
+.red {
+color: #c62314;
+}
+
+.white {
+	color: #ffffff;
+}
+main {
+	flex-grow:1;
+}
+.container {
+	padding-left: 12%;
+	padding-right:13%;
+	width: 75%;
+	height: auto;
+}
+
+.flex {
+	display: flex;
+	align-items: streach;
+}
+
+.flex_centr {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.flex-column {
+flex-direction: column;
+flex-wrap: wrap;
+}
+.al-cont{
+	align-content: stretch;
+}
+
+.er {
+	margin-left: auto;
+}
+
+.re {
+	flex-basis: 50%;
+	margin-right: auto;
+	}
+
+.logo {
+	font-family: "Quite Chocolatey";
+	font-size: 95px;
+	line-height: 0;
+}
+
+.osn_text {
+	font-family: "PTSerif Regular";
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.text_1 {
+	font-family: "Montserrat Regular";
+	font-size: 20px;
+	text-align: center;
+}
+
+.zag {
+	font-family: "Montserrat Bold";
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5;
+
+}
+
+.zag_glav {
+	font-family: "Montserrat Bold";
+	font-size: 80px;
+	line-height: 0px;
+	min-width: 500px;
+}
+
+.fon-black {
+	background-color: #120e27;
+	background-size: 100%;
+}
+
+.fon-white {
+	background-color: white;
+	background-size: 100%;
+}
+
+.bg-white {
+	background-color: white;
+	background-size: 100%;
+	padding: 20px 20px 0px 20px;
+	border-radius: 5px;
+}
+
+.left {
+	text-align: left;
+}
+
+.menu p{
+	display: inline-block;
+	text-decoration: none;
+}
+
+button {
+	font-family: "Montserrat Regular";
+	font-size: 18px;
+	color: white;
+	background: #c62314;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	min-width: 250px;
+    height: 100%;
+	max-height: 60px;
+	border-radius: 3px;
+	line-height: 2.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	background: url(../image/fon1.jpg) no-repeat;
+	background-size: 100%;
+	
+}
+
+header	a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	margin-left: 5px;
+	margin-right:5px;
+	border-radius:4px;
+}
+
+header	a:hover {
+	background: #120e27;
+}
+
+form {
+	max-width: 340px;
+	box-shadow: 0 0 15px;
+}
+
+input[type="text"] {
+	font-family: "PTSerif Regular";
+	font-size: 16px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	width: 300px ;
+    height: 48px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	background: #eeeeee;
+	}
+	
+.fg {
+	flex-grow: 1;
+}
+
+.fg4 {
+	flex-grow: 4;
+}
